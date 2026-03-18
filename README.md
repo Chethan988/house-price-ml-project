@@ -51,3 +51,28 @@ This project predicts house prices using machine learning models based on variou
 ```bash
 pip install pandas numpy scikit-learn
 python day13_house_price_prediction.py
+
+## 📷 Project Output
+
+### Model Comparison
+- Linear Regression R²: 0.57  
+- Random Forest R²: 0.80  
+
+### Feature Importance (Random Forest)
+Top features:
+- Median Income
+- Average Occupancy
+- Location (Latitude & Longitude)
+
+## 📁 Project Structure
+
+house-price-ml-project/
+│── day13_house_price_prediction.py
+│── README.md
+│── .gitignore
+
+## 💡 Problem Statement
+Predict housing prices based on socio-economic and geographical features using regression models.
+
+## 🎯 Objective
+Build and compare machine learning models to identify the best-performing algorithm for price prediction.
